@@ -1,4 +1,4 @@
-# LGI_TSVD for rPPG 
+# LGI_TSVD (for rPPG) 
 
 How to download the PyVHR python environment?
 
