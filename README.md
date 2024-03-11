@@ -1,5 +1,7 @@
 # LGI_TSVD (for rPPG) 
 
+The following github repository is containing a modification of the LGI (Local Group Invariance) algorithm for rPPG analysis under the 'methods.py' python file, implementing the Truncated Singular Value Decompostion (TSVD) as core for the blood volume pulse (BVP) and heart rate (BPM) extraction from face videos. 
+
 How to download the PyVHR python environment?
 
 1) Follow the link https://github.com/phuselab/pyVHR/tree/pyVHR_CPU, and make sure you are cloning the right branch of the code, namely "pyVHR_CPU" (NOT "Master").
