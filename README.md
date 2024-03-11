@@ -15,4 +15,5 @@ How to run the 'SVD_vs_TSVD' notebook?
 ## SVD vs TSVD
 
 1) WARNING:
-Pay attention to the 'method' variable in the 'SVD_vs_TSVD.ipynb' notebook. It defines the rPPG algorithm in use, e.g.       LGI, LGI_TSVD, CHROM, ... Choose the algorithm you want to use to extract BPM, changing it throughout the code! 
+   
+In the "Computing overall DTW, delta BPM, cpu_runtime" section of the 'SVD_vs_TSVD.ipynb' notebook, pay attention to the 'method' variable in the 'SVD_vs_TSVD.ipynb' notebook. It defines the rPPG algorithm in use, e.g. LGI, LGI_TSVD, CHROM, ... Choose the algorithm you want to use for the rPPG extraction, simply changing it! 
