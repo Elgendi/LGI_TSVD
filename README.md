@@ -1,4 +1,4 @@
-# rPPG_TruncatedSVD
+# rPPG LGI_TSVD (Truncated Singular Value Decomposition)
 
 How to download the PyVHR python environment?
 
