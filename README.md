@@ -12,8 +12,7 @@ How to run the 'SVD_vs_TSVD' notebook?
 6) Navigate in the pyVHR folder, and replace the 'methods.py' original file under 'pyVHR\BVP\methods.py' with the one provided by the current repository (still named 'methods.py'), containing the new 'cpu_LGI_TSVD' rPPG algorithm.
 7) Run the 'SVD_vs_TSVD.ipynb' notebook under the "notebooks" folder.
 
-## SVD vs TSVD
+## SVD vs TSVD notebook
 
 1) WARNING:
-   
 In the "Computing overall DTW, delta BPM, cpu_runtime" section of the 'SVD_vs_TSVD.ipynb' notebook, pay attention to the 'method' variable in the 'SVD_vs_TSVD.ipynb' notebook. It defines the rPPG algorithm in use, e.g. LGI, LGI_TSVD, CHROM, ... Choose the algorithm you want to use for the rPPG extraction, simply changing it! 
