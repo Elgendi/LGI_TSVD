@@ -18,5 +18,8 @@ How to run the 'SVD_vs_TSVD' notebook?
 
 ## SVD vs TSVD notebook
 
-1) WARNING:
+1) WARNING 1:
 In the "Computing overall DTW, delta BPM, cpu_runtime" section of the 'SVD_vs_TSVD.ipynb' notebook, the code is computing the overall DTW (dynamic time warping) between PPG and rPPG signals, the overall difference in BPM estimation, and the overall cpu_runtime for a given scenario where the candidate is put. Change the parameter 'T' to change the scenario. Pay attention to the 'method' variable, since it defines the rPPG algorithm in use, e.g. cpu_LGI, cpu_LGI_TSVD, cpu_CHROM, ... Change it to choose the algorithm you want to use for the rPPG extraction.
+
+2) WARNING 2:
+In the "Extracting BPM, with LGI_TSVD" section, the code is using the new modified LGI_TSVD algorithm to extract BPM, DTW, delta BPM, cpu_runtime, RMSE (NOT to trust in this case). Set the 'params' Stress variable to 'True' is the candidate is in a "resting" scenario, 'False' for all the other scenarios. 
